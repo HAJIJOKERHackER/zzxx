@@ -13,10 +13,10 @@ try:
 except ModuleNotFoundError: 
 	print('\n Installing missing modules ...')
 	os.system('pip install requests bs4 futures==2 > /dev/null')
-	os.system('python zzxx.py')
+	os.system('python2 zzxx.py')
 	
-print('[•] Join Whatsap Group')
-os.system('xdg-open https://chat.whatsapp.com/HCZRn6kmMpN75pQvKxA8dp')
+print('[•] JOIN FACEBOOK GROUP')
+os.system('xdg-open https://www.facebook.com/duliako')
 """
 try:
 	prox= requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/proxies.txt').text
@@ -235,7 +235,7 @@ tokenku=[]
 def menu():
 			clear()
 		#	linex()
-			print(' [1] File cloning\n [2] Random cloning\n [3] gmail cloning \n [4] join whatsap group \n [0] Exit menu')
+			print(' [1] 𝐅𝐈𝐋𝐄 𝐂𝐋𝐎𝐍𝐈𝐍𝐆\𝐍 [2] 𝐑𝐀𝐍𝐃𝐎𝐌 𝐂𝐋𝐎𝐍𝐈𝐍𝐆\𝐍 [3] 𝐆𝐌𝐀𝐈𝐋 𝐂𝐋𝐎𝐍𝐈𝐍𝐆\𝐍 [4] 𝐉𝐎𝐈𝐍 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐥 𝐆𝐑𝐎𝐔𝐏\𝐍 [0] 𝐄𝐗𝐈𝐓 𝐌𝐄𝐍𝐔')
 			linex()
 			xd=input(' Choose an option: ')
 		#	os.system('xdg-open https://www.facebook.com/dr.paigham')
@@ -301,7 +301,7 @@ def menu():
 				print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
 				linex()
 				input(' Press enter to back ')
-				os.system('python zzxx.py')
+				os.system('python2 zzxx.py')
 			elif xd in ['2','02']:
 				pak()
 			elif xd in ['3','03']:
@@ -310,7 +310,7 @@ def menu():
 				#dz._login()
 				exit()
 			elif xd in ['4','04']:
-				os.system('xdg-open https://chat.whatsapp.com/HCZRn6kmMpN75pQvKxA8dp')
+				os.system('xdg-open https://www.facebook.com/duliako')
 				menu()
 			elif xd in ['0','00']:
 				exit(' Thanks for use 🥰 ')
@@ -377,7 +377,7 @@ def pak():
 		print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
 		linex()
 		input(' Press enter to back ')
-		os.system('python zzxx.py')
+		os.system('python2 zzxx.py')
 
 def gmail():
 		os.system('rm -rf .re.txt')
@@ -454,7 +454,7 @@ def gmail():
 		print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
 		linex()
 		input(' Press enter to back ')
-		os.system('python zzxx.py')
+		os.system('python2 zzxx.py')
 #b-api method
 #1method
 def api1(ids,names,passlist):
